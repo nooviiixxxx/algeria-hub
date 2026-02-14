@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DzServices 2026 Guide</title>
+    <!-- Google Fonts for Modern Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="app-container">
+        <header class="header">
+            <div class="brand">
+                <div class="logo-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                </div>
+                <h1>DzGuide<span class="dot">.</span></h1>
+            </div>
+            <p class="subtitle">The comprehensive directory for Algerian digital services.</p>
+            
+            <div class="controls">
+                <div class="search-wrapper">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                    <input type="text" id="searchInput" placeholder="Search services (e.g., OuedKniss, CNAS)..." autocomplete="off">
+                </div>
+                
+                <div class="filter-wrapper">
+                    <select id="categoryFilter">
+                        <option value="All">All Categories</option>
+                        <option value="Government">Government</option>
+                        <option value="Services">Services & Startups</option>
+                        <option value="Education">Education</option>
+                        <option value="Utilities">Utilities & Payment</option>
+                    </select>
+                    <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </div>
+            </div>
+        </header>
+
+        <main class="grid-container" id="servicesGrid">
+            <!-- Cards will be injected here by JavaScript -->
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2026 DzGuide. Built for the community. (BY NOVI MOON)</p>
+        </footer>
+    </div>
+
+</body>
+</html>
